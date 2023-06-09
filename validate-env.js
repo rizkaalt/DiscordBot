@@ -4,7 +4,7 @@ const { config } = require('dotenv');
 const { exists } = require('fs-extra');
 const ValidationMessages = require('./validate-env-messages.json');
 
-const REQUIRED_DOT_ENV_PROPS = ['TOKEN'];
+const REQUIRED_DOT_ENV_PROPS = ['MTExNjU4NzQxOTUxMzQwOTU5Ng.Gp8mpO.JiKCDlc5sKdujNvG813HnYoYYlB6qczlRIbxx4'];
 function checkIfDotEnvExists() {
   const dotEnvFilePath = join(__dirname, '.env');
   return new Promise((resolve, reject) => {
